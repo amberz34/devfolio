@@ -140,7 +140,7 @@ export const PROJECTS = [
     description: "LinkTok is a secure, full-stack social media app with a user-friendly frontend and a RESTful backend. It features robust authentication, local storage for media, and an array of tools like an admin dashboard, post scheduling, story creation, and a follow system. Users enjoy curated content and detailed analytics, all within a personalized ‘For You’ video page. 🛏️",
     gradient: ["#F14658", "#DC2537"],
     url: "https://github.com/Mrhamza01/frontendLinkTok",
-    tech: ["react","nextJS", "typescript", "tailwindcss" ,"redux","api",],
+    tech: ["react","nextjs", "typescript", "tailwindcss" ,"redux","api",],
   },
   // {
   //   name: "link tok backend",
