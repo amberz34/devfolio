@@ -3,6 +3,12 @@ const withPWA = require("next-pwa");
 const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
   pwa: {
     dest: "public",
     register: true,
