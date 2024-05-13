@@ -41,7 +41,7 @@ const success = () =>
   });
 
 const Contact = () => {
-  const initialState = { name: "", email: "", message: "" };
+  const initialState = { user_name: "", user_email: "", message: "" };
   const [formData, setFormData] = useState(initialState);
   const [mailerResponse, setMailerResponse] = useState("not initiated");
   const [isSending, setIsSending] = useState(false);
@@ -69,19 +69,19 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const { name, email, message } = {
-      name: formData.name,
-      email: formData.email,
+    const { user_name, user_email, message } = {
+      user_name: formData.user_name,
+      user_email: formData.user_email,
       message: formData.message,
     };
 
-    if (name === "" || email === "" || message === "") {
+    if (user_name === "" || user_email === "" || message === "") {
       empty();
       return setMailerResponse("empty");
     }
 
     setIsSending(true);
-    mail({ name, email, message })
+    mail({ user_name, user_email, message })
       .then((res) => {
         if (res.status === 200) {
           setMailerResponse("success");
@@ -260,14 +260,14 @@ const Contact = () => {
             <div className="relative">
               <input
                 type="text"
-                id="name"
+                id="user_name"
                 className="block w-full h-12 sm:h-14 px-4 text-xl sm:text-2xl font-mono outline-none border-2 border-purple bg-transparent rounded-[0.6rem] transition-all duration-200 focus:bg-gray-dark-5  active:bg-gray-dark-5"
-                value={formData.name}
+                value={formData.user_name}
                 onChange={handleChange}
                 required
               />
               <label
-                htmlFor="name"
+                htmlFor="user_name"
                 className="absolute top-0 left-0 h-full flex items-center pl-4 text-lg font-mono transform transition-all"
               >
                 Name
@@ -277,14 +277,14 @@ const Contact = () => {
             <div className="relative mt-14">
               <input
                 type="text"
-                id="email"
+                id="user_email"
                 className="block w-full h-12 sm:h-14 px-4 text-xl sm:text-2xl font-mono outline-none border-2 border-purple bg-transparent rounded-[0.6rem] transition-all duration-200 focus:bg-gray-dark-5  active:bg-gray-dark-5"
-                value={formData.email}
+                value={formData.user_email}
                 onChange={handleChange}
                 required
               />
               <label
-                htmlFor="email"
+                htmlFor="user_email"
                 className="absolute top-0 left-0 h-full flex items-center pl-4 text-lg font-mono transform transition-all"
               >
                 Email
@@ -320,8 +320,8 @@ const Contact = () => {
             className={styles.button}
             ref={buttonEl}
             disabled={
-              formData.name === "" ||
-              formData.email === "" ||
+              formData.user_name === "" ||
+              formData.user_email === "" ||
               formData.message === ""
                 ? true
                 : false
