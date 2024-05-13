@@ -80,14 +80,15 @@ export const SKILLS = {
     "javascript",
     "typescript",
     "python",
+     "nodejs",
     "sass",
     // "cpp",
    "vue",
-   "vite",
+  //  "vite",
    
     // "php",
-    "python",
-    "nodejs",
+    // "python",
+   
     // "webpack",
     "vite",
     "firebase",
@@ -113,12 +114,11 @@ export const SKILLS = {
     "nextjs",
     "django",
     "tailwindcss",
-    "styledcomponents",
     "antdesign",
     "chakra-ui",
   ],
   databases: ["mysql", "mongodb"],
-  other: ["git",  "docker",
+  other: [ "docker",
   "kubernetes",],
 };
 
@@ -134,23 +134,23 @@ export const PROJECTS = [
     tech: ["react", "tailwindcss","api" , "mongodb", "nelify"],
   },
   {
-    name: "link tok frontend",
+    name: "linktok RESTfull API base full stack social media app",
     image: "/projects/frontend.png",
     blurImage: "/projects/blur/frontend.png",
-    description: "linktok social media app forntend  🛏️",
+    description: "LinkTok is a secure, full-stack social media app with a user-friendly frontend and a RESTful backend. It features robust authentication, local storage for media, and an array of tools like an admin dashboard, post scheduling, story creation, and a follow system. Users enjoy curated content and detailed analytics, all within a personalized ‘For You’ video page. 🛏️",
     gradient: ["#F14658", "#DC2537"],
-    url: "https://shubh73-airbnb.vercel.app/",
-    tech: ["react", "typescript","nextjs", "tailwindcss" ,"RTK Query",],
+    url: "https://github.com/Mrhamza01/frontendLinkTok",
+    tech: ["react","nextJS", "typescript", "tailwindcss" ,"redux","api",],
   },
-  {
-    name: "link tok backend",
-    image: "/projects/R.jpeg",
-    blurImage: "/projects/blur/R.jpeg",
-    description: "linktok social media app backend 🛏️",
-    gradient: ["#FFA62E", "#EA4D2C"],
-    url: "https://shubh73-medium.vercel.app/",
-    tech: ["php", "larvel", "restfull api",],
-  },
+  // {
+  //   name: "link tok backend",
+  //   image: "/projects/R.jpeg",
+  //   blurImage: "/projects/blur/R.jpeg",
+  //   description: "linktok social media app backend 🛏️",
+  //   gradient: ["#FFA62E", "#EA4D2C"],
+  //   url: "https://github.com/Mrhamza01/backendLinkTok",
+  //   tech: ["php", "larvel", "api",],
+  // },
   // {
   //   name: "Inshorts",
   //   image: "/projects/inshorts.webp",
@@ -185,7 +185,7 @@ export const WORK = [
       "exploring new technolgies and exprimentents with there power",
     ],
     url: "https://taupe-buttercream-cd5453.netlify.app",
-    video: "/work/aisummrizer.mp4",
+    video: "https://gjro0uh0v91gbcjx.public.blob.vercel-storage.com/aisummrizer-ZwgFYgEm7JR4fYn3jmk9a6vqhpYb8E.mp4",
   },
   {
     id: 2,
@@ -199,23 +199,23 @@ export const WORK = [
       "Successfully handle all the APIs with error handling and loading state.",
     ],
     url: "https://github.com/Mrhamza01/frontendLinkTok",
-    video: "/work/aviate.mp4",
+    video: "https://gjro0uh0v91gbcjx.public.blob.vercel-storage.com/linktok-E7UPngwdbf1CCgPCbkU5Aud4agxQKv.mp4",
   },
-  {
-    id: 3,
-    company: "link tok",
-    title: "Frontend Developer",
-    location: "pakistan",
-    range: "april 2024 - may 2024",
-    responsibilities: [
-      "Engineered the backend for Link Tok, focusing on RESTful principles to ensure fast, reliable, and scalable service.",
-      "Created authentication and authorization mechanisms from scratch.",
-      "Implemented CRUD operations for all API endpoints, contributing to a complex and comprehensive backend structure.",
-      "For a closer look at my work, visit my projects"
-    ],
-    url: "https://github.com/Mrhamza01/backendLinkTok",
-    video: "/work/spacenos.mp4",
-  },
+  // {
+  //   id: 3,
+  //   company: "link tok",
+  //   title: "Frontend Developer",
+  //   location: "pakistan",
+  //   range: "april 2024 - may 2024",
+  //   responsibilities: [
+  //     "Engineered the backend for Link Tok, focusing on RESTful principles to ensure fast, reliable, and scalable service.",
+  //     "Created authentication and authorization mechanisms from scratch.",
+  //     "Implemented CRUD operations for all API endpoints, contributing to a complex and comprehensive backend structure.",
+  //     "For a closer look at my work, visit my projects"
+  //   ],
+  //   url: "https://github.com/Mrhamza01/backendLinkTok",
+  //   video: "/work/spacenos.mp4",
+  // },
 ];
 
 export const GTAG = "G-5HCTL2TJ5W";
