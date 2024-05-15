@@ -12,6 +12,8 @@ import About1 from "@/components/About/About1";
 import Skills from "@/components/Skills/Skills";
 import About2 from "@/components/About/About2";
 import Projects from "@/components/Projects/Projects";
+import Certification from "@/components/certifications/index";
+
 import Work from "@/components/Work/Work";
 import Collaboration from "@/components/Collaboration/Collabaration";
 import Contact from "@/components/Contact/Contact";
@@ -78,8 +80,10 @@ export default function Home() {
               <Collaboration clientHeight={clientHeight} />
               <div className="pt-10 sm:pt-16 bg-gray-dark-4"></div>
               <Contact />
+              {/* <Certification/> */}
             </main>
             <Footer />
+
             <Scripts />
           </>
         )}
