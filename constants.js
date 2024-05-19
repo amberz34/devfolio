@@ -16,10 +16,9 @@ export const METADATA = {
     "Software Engineer",
     "Portfolio",
   ].join(", "),
-  // image:
-  //   "https://res.cloudinary.com/dywdhyojt/image/upload/v1690572126/preview.png",
-    image:
-    "/preview.png",
+  image:
+    "https://res.cloudinary.com/db14po1qo/image/upload/v1716123913/preview_ndf8x4.png",
+   
   language: "English",
 };
 
@@ -188,8 +187,8 @@ export const WORK = [
     ],
     url: "https://taupe-buttercream-cd5453.netlify.app",
     
-    // video: "https://gjro0uh0v91gbcjx.public.blob.vercel-storage.com/aisummrizer-ZwgFYgEm7JR4fYn3jmk9a6vqhpYb8E.mp4",
-    video: "/ai-summrizer.webm",
+    
+    video: "https://res.cloudinary.com/db14po1qo/video/upload/v1716124228/ai-summrizer_vff6ro.mkv",
     
   },
   {
@@ -204,7 +203,7 @@ export const WORK = [
       "Successfully handle all the APIs with error handling and loading state.",
     ],
     url: "https://github.com/Mrhamza01/frontendLinkTok",
-    video: "/linktok.mp4",
+    video: "https://res.cloudinary.com/db14po1qo/video/upload/v1716124188/linktok_pll718.mp4",
   },
   // {
   //   id: 3,
