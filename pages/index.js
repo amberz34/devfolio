@@ -76,8 +76,8 @@ export default function Home() {
               <Skills />
               <About2 clientHeight={clientHeight} />
               <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
-              <Work clientWidth={clientWidth} />
-              <Collaboration clientHeight={clientHeight} />
+              {/* <Work clientWidth={clientWidth} /> */}
+              {/* <Collaboration clientHeight={clientHeight} /> */}
               <div className="pt-10 sm:pt-16 bg-gray-dark-4"></div>
               <Contact />
               {/* <Certification/> */}

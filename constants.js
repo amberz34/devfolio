@@ -1,19 +1,13 @@
 export const METADATA = {
-  author: "hamza ghafoor",
-  title: "Portfolio | hamza ghafoor",
+  author: "Ambreen Zahra",
+  title: "Portfolio | Ambreen zahra",
   description:
-    "My name is Muhammad hamza. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript and typescript. I am available for any kind of job opportunity that suits my skills and interests.",
-  siteUrl: "https://hamzaghafoor.vercel.app/",
-  twitterHandle: "@hamzakambo33483",
+    "My name is Ambreen zahra. I am a professional and enthusiastic graphic designer",
+  siteUrl: "https://ambreenzahra.vercel.app/",
+  twitterHandle: "@Sa73682563Amber",
   keywords: [
-    "hamza ghafoor",
-    "Frontend Developer",
-    "backend Developer",
-    "full stack Developer",
-    "Web Developer",
-    "React Native Developer",
-    "Software Developer",
-    "Software Engineer",
+    "ambreen zahra",
+    
     "Portfolio",
   ].join(", "),
   image:
@@ -46,102 +40,77 @@ export const MENULINKS = [
 ];
 
 export const TYPED_STRINGS = [
-  "A pragmatic full stack Developer",
-  "I build things for the web",
-  "I create complex and modern apps",
+  "A Graphic Designer",
+  "I build things that impress people",
+  "I create complex and modern UI/UX designs",
 ];
 
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: hamza.kamboh31@gmail.com",
+    url: "mailto: ambersaleem01515@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/hamza-ghafoor/",
+    url: "https://www.linkedin.com/in/amber-saleem-952754270",
   },
-  {
-    name: "github",
-    url: "https://github.com/Mrhamza01",
-  },
+  // {
+  //   name: "github",
+  //   url: "https://github.com/Mrhamza01",
+  // },
   // {
   //   name: "instagram",
   //   url: "https://www.instagram.com/shubhii73/",
   // },
   {
     name: "twitter",
-    url: "https://twitter.com/hamzakambo33483",
+    url: " https://x.com/Sa73682563Amber?s=08 ",
   },
 ];
 
 export const SKILLS = {
   languagesAndTools: [
+    "canva",
+    "figma",
     "html",
-    "css",
-    "javascript",
-    "typescript",
-    "python",
-     "nodejs",
-    "sass",
-    // "cpp",
-   "vue",
-  //  "vite",
-   
-    // "php",
-    // "python",
-   
-    // "webpack",
-    "vite",
-    "firebase",
-    "wordpress",
-    "docker",
-    "git",
-    "graphql",
-    "aws",
-    "azure",
-
-
-    // "moralis",
-    // "stripe",
-  //  "mongoDB",
-  //  "mysql",
- 
-
-    // "tanstack-query",
+"css",
+"worpress",
   ],
-  librariesAndFrameworks: [
-    "react",
-    "redux",
-    "nextjs",
-    "django",
-    "tailwindcss",
-    "antdesign",
-    "chakra-ui",
-  ],
-  databases: ["mysql", "mongodb"],
-  other: [ "docker",
-  "kubernetes",],
 };
 
 export const PROJECTS = [
   {
-    name: "summarizer",
-    image: "/projects/aisummrizer.jpg",
-    blurImage: "/projects/aisummrizer",
-    description:
-      "I built an AI summarizer that uses the GPT-4 model to summarize articles. It takes a link to an article and summarizes it into a shorter, more concise version. The summary is generated using natural language processing (NLP) techniques to identify the most important information in the article and generate a summary that captures the essence of the original content deploy of nelify",
+    name: "design",
+    image: "/projects/1.jpg",
+    blurImage: "/projects/1.jpg",
+    
     gradient: ["#FFCF1B", "#FF881B"],
-    url: "https://taupe-buttercream-cd5453.netlify.app",
-    tech: ["react", "tailwindcss","api" , "mongodb", "nelify"],
+    
   },
   {
-    name: "linktok RESTfull API base full stack social media app",
-    image: "/projects/frontend.png",
-    blurImage: "/projects/blur/frontend.png",
-    description: "LinkTok is a secure, full-stack social media app with a user-friendly frontend and a RESTful backend. It features robust authentication, local storage for media, and an array of tools like an admin dashboard, post scheduling, story creation, and a follow system. Users enjoy curated content and detailed analytics, all within a personalized ‘For You’ video page. 🛏️",
+    name: "design",
+    image: "/projects/2.jpg",
+    blurImage: "/projects/1.jpg",
+    
     gradient: ["#F14658", "#DC2537"],
-    url: "https://github.com/Mrhamza01/frontendLinkTok",
-    tech: ["react","nextjs", "typescript", "tailwindcss" ,"redux","api",],
+   
+  },
+ 
+  {
+    name: "design",
+    image: "/projects/3.jpg",
+    blurImage: "/projects/1.jpg",
+    
+    gradient: ["#F14658", "#DC2537"],
+   
+  },
+  {
+    name: "design",
+    image: "/projects/4.jpg",
+    blurImage: "/projects/4.jpg",
+    
+    gradient: ["#F14658", "#DC2537"],
+   
   },
   // {
   //   name: "link tok backend",

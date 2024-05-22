@@ -73,30 +73,7 @@ const ProjectTile = ({ project, classes, isDesktop }) => {
         >
           {name}
         </h1>
-        <div
-          className={`
-            ${styles.techIcons} w-1/2 h-full absolute left-24 top-0 sm:flex items-center hidden
-          `}
-        >
-          <div className="flex flex-col pb-8">
-            {project.tech.map((el, i) => (
-              <img
-                className={`${i % 2 === 0 && "ml-16"} mb-4`}
-                src={`/projects/tech/${el}.svg`}
-                alt={el}
-                height={45}
-                width={45}
-                key={el}
-              />
-            ))}
-          </div>
-        </div>
-        <h2
-          className="text-lg z-10 tracking-wide font-medium text-black transform-gpu"
-          style={{ transform: "translateZ(0.8rem)" }}
-        >
-          {description}
-        </h2>
+       
       </div>
     </a>
   );
