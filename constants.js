@@ -1,8 +1,8 @@
 export const METADATA = {
-  author: "Ambreen Zahra",
-  title: "Portfolio | Ambreen zahra",
+  author: "Amber Saleem",
+  title: "Portfolio | Amber Saleem",
   description:
-    "My name is Ambreen zahra. I am a professional and enthusiastic graphic designer",
+    "My name is Amber Saleem. I am a professional and enthusiastic graphic designer.I am a professional web designer and a wordpress developer.",
   siteUrl: "https://ambreenzahra.vercel.app/",
   twitterHandle: "@Sa73682563Amber",
   keywords: [
@@ -43,6 +43,7 @@ export const TYPED_STRINGS = [
   "A Graphic Designer",
   "I build things that impress people",
   "I create complex and modern UI/UX designs",
+  "I can create responsive website designs",
 ];
 
 export const SOCIAL_LINKS = [
